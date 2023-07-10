@@ -1,5 +1,8 @@
 use log::Log;
 
+pub struct LogEntry {
+
+}
 pub struct MockLogger {
 
 }

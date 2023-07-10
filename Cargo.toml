@@ -1,9 +1,14 @@
 [package]
-name = "mock-logger"
-version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+name        = "mock-logger"
+version     = "0.1.0"
+edition     = "2021"
+license     = "MIT"
+description = "A mock logging implementation for unit testing."
+homepage    = "https://github.com/cschram/mock-logger"
+repository  = "https://github.com/cschram/mock-logger"
+readme      = "README.md"
+keywords    = ["mock", "logger", "test"]
+categories  = ["development-tools::testing"]
 
 [dependencies]
 log = "0.4.19"
