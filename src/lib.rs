@@ -22,7 +22,7 @@ thread_local! {
     static LOG_ENTRIES: RefCell<Vec<LogEntry>> = RefCell::new(Vec::<LogEntry>::new());
 }
 
-/// Mock logging implementation
+/// Mocked log implementation, for the purpose of validating log output in tests.
 pub struct MockLogger;
 
 impl MockLogger {
