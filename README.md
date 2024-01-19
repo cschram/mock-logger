@@ -19,7 +19,7 @@ mod test {
     fn test_logging() {
         mock_logger::init();
         log_something();
-        MockLogger.entries(|entries| {
+        MockLogger::entries(|entries| {
             assert_eq!(entries.len(), 1);
             assert_eq!(entries[0].level, log::Level::Info);
             assert_eq!(entries[0].body, "something");
